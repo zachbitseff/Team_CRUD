@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Team_CRUD
 {
-    public partial class Form1 : Form
+    public partial class ProjectForm : Form
     {
-        public Form1()
+        public ProjectForm()
         {
             InitializeComponent();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
