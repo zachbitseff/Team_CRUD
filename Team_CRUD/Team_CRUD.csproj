@@ -53,6 +53,7 @@
       <DependentUpon>ProjectForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="Projects.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ProjectForm.resx">
       <DependentUpon>ProjectForm.cs</DependentUpon>
