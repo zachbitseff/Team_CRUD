@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team_CRUD", "Team_CRUD\Team_CRUD.csproj", "{F8C27513-1376-4F54-A0C8-9E528AEAB77C}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ProjectsDB", "ProjectsDB\ProjectsDB.sqlproj", "{FCB927A2-5752-44EB-A291-53CC70625196}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{F8C27513-1376-4F54-A0C8-9E528AEAB77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8C27513-1376-4F54-A0C8-9E528AEAB77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8C27513-1376-4F54-A0C8-9E528AEAB77C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB927A2-5752-44EB-A291-53CC70625196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB927A2-5752-44EB-A291-53CC70625196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB927A2-5752-44EB-A291-53CC70625196}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FCB927A2-5752-44EB-A291-53CC70625196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB927A2-5752-44EB-A291-53CC70625196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB927A2-5752-44EB-A291-53CC70625196}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
