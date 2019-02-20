@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
+using System.Data.SqlClient;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,20 +11,22 @@ namespace Team_CRUD
     static class ProjectsDB
     {
 
-        public static List<Projects> GetProjects()
+        public static List<string> GetProjects()
         {
-            ProjectContext context = new ProjectContext();
+            string connection = 
+                ConfigurationManager.ConnectionStrings["ProjectsDB"].ConnectionString;
 
-            List<Projects> allProjects = context.Projects.ToList();
+            using (SqlConnection con = new SqlConnection(connection))
+            {
+                con.Open();
 
+                //TODO: Finish database code...
+
+                //con.Close(); //closes automatically with using statement
+            }
+
+            throw new NotImplementedException();
         }
 
-        public static void AddProject(Projects p)
-        {
-            ProjectContext context = new ProjectContext();
-
-            context.Projects.Add(p);
-            context.SaveChanges();
-        }
     }
 }
